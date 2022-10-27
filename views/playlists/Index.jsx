@@ -12,7 +12,7 @@ class Index extends React.Component {
                         <li key={_id}>
                             <a href={`/playlists/${_id}`}>
                                 {title}
-                            </a> is {Artist}
+                            </a> is {artist}
                             <br />
                             {
                                 favoriteSong ?

@@ -5,7 +5,9 @@ class Show extends React.Component {
         const { title, artist, favoriteSong} = this.props.playlist
         const capTitle = title[0].toUpperCase() + title.substring(1)
         return(
-            <p>{capTitle} is by {artist} and {favoriteSong ? 'it\'s on favorites' : 'it\'s not on favorites'}</p>
+            <Default>
+                <p>{capTitle} is by {artist} and {favoriteSong ? 'it\'s on favorites' : 'it\'s not on favorites'}</p>
+            </Default>
         )
     }
 }
