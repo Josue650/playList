@@ -8,6 +8,7 @@ class Index extends React.Component {
     const notFavored = playlists.filter(object => !object.favoriteSong)
     return (
       <Default>
+        <h1 class="welcome">Welcome to Playlist Creator</h1>
         <div id='playlist'>
           <div class='song-container header'>
             <div>Title</div>
