@@ -16,7 +16,7 @@
 * Navigate to the home page link: http://localhost:3003/playlists
 
 * Click on "Create A New Song"
-![alt text](/Users/toosh23/Desktop/software_classwork/unit_2/playlists/images/Screen)
+![alt text](/Users/toosh23/Desktop/software_classwork/unit_2/playlists/images/ScreenShot)
 
 * Follow the prompt, enter title of the song, enter artist of the song and an extra feature add album cover to song.(copy image address and drop into image box)
 
