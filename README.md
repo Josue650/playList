@@ -1,4 +1,5 @@
 # Create a Playlist
+![alt text](images/main.png)
 
 ### An app that lets you build a playlist that seperaates song you listen too and song that are favorites.
 
@@ -19,6 +20,8 @@
 ![alt text](images/shot.png)
 
 * Follow the prompt, enter title of the song, enter artist of the song and an extra feature add album cover to song.(copy image address and drop into image box)
+then press submit
+![alt text](images/instruction.png)
 
 * Once you song is created you can view the song you added with the album image.
 
