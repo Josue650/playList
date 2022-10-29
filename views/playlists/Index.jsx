@@ -1,35 +1,44 @@
 const React = require('react')
+const Default = require('../layouts/Default')
 
 class Index extends React.Component {
-    render(){
-        const { playlists } = this.props
-        return(
-            <ul>
-               {
+  render () {
+    const { playlists } = this.props
+    return (
+      <Default>
+        <ul>
+          {
                 playlists.map((playlist) => {
-                    const { title, artist, favoriteSong, _id} = playlist
-                    return(
-                        <li key={_id}>
-                            <a href={`/playlists/${_id}`}>
-                                {title}
-                            </a> is {artist}
-                            <br />
-                            {
-                                favoriteSong ?
-                                'It\'s added to favorites playlist':
-                                'It\'s not added to favorites playlist'
-                            }
-                            <br />
-                            <form method="POST" action={`/playlists/${_id}?_method=DELETE`}>
-                                <input type="submit" value={`Delete ${artist} ${title}`} />
-                            </form>
+                  const { title, artist, favoriteSong, _id } = playlist
+                  return (
+                    <div id='playlist'>
+                      <div class='song-container header'>
+                        <div>Title</div>
+                        <div>Artist</div>
+                        <div>Favorite</div>
+                        <div>Delete</div>
+                      </div>
+                      <li key={_id}>
 
-                        </li>
-                    )
+                        <div class='song-container'>
+                         <div><a href={`/playlists/${_id}`}>{title} </a></div>
+                          <div class="art">{artist}</div>
+                          <div class="fav">{favoriteSong ? 'yes' : 'no'}</div>
+                          <div>
+                            <form method='POST' action={`/playlists/${_id}?_method=DELETE`}>
+                              <input type='submit' value={`Delete ${title} by ${artist}`} />
+                            </form>
+                          </div>
+                        </div>
+                      </li>
+                    </div>
+
+                  )
                 })
                }
-            </ul>
-        )
-    }
+        </ul>
+      </Default>
+    )
+  }
 }
 module.exports = Index

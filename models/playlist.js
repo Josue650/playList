@@ -2,9 +2,10 @@ const mongoose = require('mongoose')
 
 // Make a Schema
 const playlistSchema = new mongoose.Schema({
-    title: { type: String, required: true },
-    artist: { type: String, required: true },
-    favoriteSong: Boolean
+  title: { type: String, required: true },
+  artist: { type: String, required: true },
+  image:{ type: String, required: true},
+  favoriteSong: Boolean
 })
 
 // Make a model from the Schema
