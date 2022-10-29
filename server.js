@@ -20,6 +20,7 @@ db.once('open', () => {
 app.use(methodOverride('_method'))
 app.use(express.static('public'))
 app.use('/playlists', require('./controllers/routeController'))
+// app.use('/user', require('./controllers/authController'))
 /* End Middleware */
 
 // Tell the app to listen on port

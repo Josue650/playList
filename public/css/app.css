@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&family=Indie+Flower&family=Lacquer&display=swap');
 body{
     background-image: url(https://recordhead.biz/wp-content/uploads/2021/09/album-1866523_1280.jpg);
 
@@ -64,17 +64,18 @@ form{
 .add{
   text-align: center;
   color: aliceblue;
-  text-shadow: 1px 1px 1px black;
+  text-shadow: 2px 2px 2px black;
 
 }
 .nav{
+  font-family: 'Lacquer', cursive;
   text-align: center;
   font-size: larger;
 }
 .show{
   color: aliceblue;
   font-weight: bold;
-  text-shadow: 1px 1px 1px black;
+  text-shadow: 2px 2px 2px black;
   text-align: center;
 }
 .edit{
