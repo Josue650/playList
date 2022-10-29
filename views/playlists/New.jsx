@@ -11,7 +11,7 @@ class New extends React.Component {
             Artist: <input type='text' name='artist' placeholder='Enter Artist Name' /><br />
             Image: <input type='text' name='image' placeholder='insert img url' /><br />
             Favorite Song: <input type='checkbox' name='favoriteSong' />
-            <input type='submit' value='Submit Song' />
+            <input class='in' type='submit' value='Submit Song' />
           </form>
         </Default>
       </div>

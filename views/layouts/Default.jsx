@@ -13,7 +13,7 @@ class Default extends React.Component {
           <div class='nav'>
             <nav>
               <a href='/playlists'>Go to Playlist Index</a><br />
-              <a href='/playlists/new'>Create a New Song</a>
+              <a href='/playlists/new'>Create a New Song</a><br />
               {this.props.playlist ? <a href={`/playlists/${playlist._id}/edit`}> {playlist.title} Edit Page </a> : ''}<br />
               {this.props.playlist ? <a href={`/playlists/${playlist._id}`}>{playlist.title} Album Page </a> : ''}
             </nav>
