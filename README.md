@@ -19,7 +19,7 @@
 * Click on "Create A New Song"
 ![alt text](images/shot.png)
 
-* Follow the prompt, enter title of the song, enter artist of the song and an extra feature add album cover to song.(copy image address and drop into image box)
+* Follow the prompt, enter title of the song, enter artist of the song and an extra feature add album cover to song, copy image address and drop into image box
 then press submit
 ![alt text](images/instruction.png)
 
