@@ -5,8 +5,10 @@ const playlistSchema = new mongoose.Schema({
   title: { type: String, required: true },
   artist: { type: String, required: true },
   image: { type: String, required: true },
-  favoriteSong: Boolean
-})
+  favoriteSong: Boolean,
+},{timestamps: true})
+
+
 
 // Make a model from the Schema
 const Playlist = mongoose.model('Playlist', playlistSchema)

@@ -1,5 +1,5 @@
 # Playlist Creator
-### An app that lets you build a playlist that seperaates song you listen too and song that are favorites.
+### An app that lets you build a playlist that seperaates song you listen too and song that are favorites. Yoa are able to add and delte songs as the user pleases.
 ![alt text](images/main.png)
 
 

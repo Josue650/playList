@@ -23,6 +23,7 @@ class Default extends React.Component {
           </h1>
 
           {this.props.children}
+          
         </body>
       </html>
     )

@@ -45,6 +45,7 @@ class Index extends React.Component {
                   const { title, artist, favoriteSong, _id } = playlist
                   return (
 
+
                     <div key={_id}>
 
                       <div class='song-container'>
@@ -52,9 +53,11 @@ class Index extends React.Component {
                         <div class='art'>{artist}</div>
                         <div class='fav'>{favoriteSong ? 'yes' : 'no'}</div>
                         <div>
+
                           <form method='POST' action={`/playlists/${_id}?_method=DELETE`}>
                             <input type='submit' value={`Delete ${title} by ${artist}`} />
                           </form>
+       
                         </div>
                       </div>
                     </div>
