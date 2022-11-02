@@ -19,6 +19,9 @@ https://trello.com/b/GmbhtTa0/playlist#
 
 * Navigate to the home page link: http://localhost:3003/playlists
 
+* The page will have you sign up before creaating a playlist( Create a username and password )
+![alt text](images/signin.png)
+
 * Click on "Create A New Song"
 ![alt text](images/shot.png)
 
