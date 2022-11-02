@@ -109,3 +109,15 @@ a{
   font-weight: bold;
   text-shadow: 2px 2px 2px black;
 }
+.signup{
+  text-align: center;
+  color: #f5f5f5;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px black;
+}
+.login{
+  text-align: center;
+  color: #f5f5f5;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px black;
+}

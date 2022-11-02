@@ -3,7 +3,7 @@ const Playlist = require('../models/playlist')
 const dataController = {
   // Index,
   index (req, res, next) {
-    Playlist.find({}, (err, foundPlaylists) => {
+    Playlist.find({username: req.session.username}, (err, foundPlaylists) => {
       if (err) {
         res.status(400).send({
           msg: err.message
@@ -44,6 +44,7 @@ const dataController = {
   // Create
   create (req, res, next) {
     req.body.favoriteSong = req.body.favoriteSong === 'on'
+    req.body.username = req.session.username
     Playlist.create(req.body, (err, createdPlaylist) => {
       if (err) {
         res.status(400).send({

@@ -1,0 +1,24 @@
+/// ///////////////////////////////////////////
+// Import Dependencies
+/// ///////////////////////////////////////////
+const mongoose = require('mongoose')
+
+/// /////////////////////////////////////////////
+// Define Model
+/// /////////////////////////////////////////////
+// pull schema and model from mongoose
+const { Schema, model } = mongoose
+
+// make playlist schema
+const userSchema = new Schema({
+  username: { type: String, required: true, unique: true },
+  password: { type: String, required: true }
+})
+
+// make playlist model
+const User = model('User', userSchema)
+
+/// ////////////////////////////////////////////////
+// Export Model
+/// ////////////////////////////////////////////////
+module.exports = User
