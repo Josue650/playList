@@ -36,4 +36,4 @@ https://trello.com/b/GmbhtTa0/playlist#
 * Navigate through the links to get to diffrent pages.
 
 ## Wireframes
-![alt text](images/IMG_1775.HEIC)
+![alt text](images/wireframe.jpeg)
