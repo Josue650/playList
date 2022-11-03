@@ -16,7 +16,7 @@
 https://trello.com/b/GmbhtTa0/playlist#
 
 ## Wireframes
-![alt text](images/wireframe.jpeg)
+![alt text](images/build.png)
 
 
 ## Basic Instructions to make App work
