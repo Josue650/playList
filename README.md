@@ -13,7 +13,9 @@
 - Express
 
 ## Trello Board
+<p>View Trello Board
 <a href="https://trello.com/b/GmbhtTa0/playlist#">here</a>
+</p>
 
 ## ERD
 ![alt text](images/newErd.png)
