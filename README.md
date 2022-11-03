@@ -12,8 +12,11 @@
 - MongoDB
 - Express
 
-## Trello Board/ ERD
+## Trello Board
 https://trello.com/b/GmbhtTa0/playlist#
+
+## ERD
+![alt text](images/newErd.png)
 
 ## Wireframes
 ![alt text](images/build.png)
