@@ -15,6 +15,9 @@
 ## Trello Board/ ERD
 https://trello.com/b/GmbhtTa0/playlist#
 
+## Wireframes
+![alt text](images/wireframe.jpeg)
+
 
 ## Basic Instructions to make App work
 
@@ -34,6 +37,3 @@ https://trello.com/b/GmbhtTa0/playlist#
 * You can also view the favorite songs and non favored songs on index page.
 
 * Navigate through the links to get to diffrent pages.
-
-## Wireframes
-![alt text](images/wireframe.jpeg)
