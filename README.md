@@ -1,15 +1,16 @@
 # Playlist Creator
-### An app that lets you build a playlist that seperaates song you listen too and song that are favorites. Yoa are able to add and delte songs as the user pleases.
+### An app that lets you create a playlist that seperates songs the user favors and songs that are non favored. User is able to add and delete songs, as well as edit the title, artist and image.
 ![alt text](images/main.png)
 
 
 
-#### The features used to make this app work were:
+#### The tools used to make this app were:
 - JavaScript
 - Css
 - HTML
 - JSX
 - MongoDB
+- Express
 
 ## Trello Board/ ERD
 https://trello.com/b/GmbhtTa0/playlist#
@@ -33,3 +34,6 @@ https://trello.com/b/GmbhtTa0/playlist#
 * You can also view the favorite songs and non favored songs on index page.
 
 * Navigate through the links to get to diffrent pages.
+
+## Wireframes
+![alt text](images/IMG_1775.HEIC)
