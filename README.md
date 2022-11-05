@@ -39,3 +39,6 @@
 
 ## Wireframes
 ![alt text](images/build.png)
+
+## Restful Routes
+![alt text](images/table.png)
