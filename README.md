@@ -4,7 +4,7 @@
 
 ## Basic Instructions to make App work
 
-* Navigate to the home page link: http://localhost:3003/playlists/user/signup
+* Navigate to the home page link: http://localhost:3003/user/signup
 
 * The page will have you sign up before creaating a playlist( Create a username and password )
 ![alt text](images/signin.png)
