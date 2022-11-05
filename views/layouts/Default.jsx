@@ -12,10 +12,12 @@ class Default extends React.Component {
         <body>
           <div class='nav'>
             <nav>
-              <a href='/playlists'>Go to Playlist Index</a><br />
+              <ul>
+              <li class="main-nav"><a href='/playlists'>Go to Playlist Index</a><br /></li>
               <a href='/playlists/new'>Create a New Song</a><br />
               {this.props.playlist ? <a href={`/playlists/${playlist._id}/edit`}> {playlist.title} Edit Page </a> : ''}<br />
               {this.props.playlist ? <a href={`/playlists/${playlist._id}`}>{playlist.title} Album Page </a> : ''}
+              </ul>
             </nav>
           </div>
           <h1>
@@ -23,7 +25,7 @@ class Default extends React.Component {
           </h1>
 
           {this.props.children}
-          
+
         </body>
       </html>
     )
