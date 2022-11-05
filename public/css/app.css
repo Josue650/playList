@@ -19,11 +19,13 @@ body{
 #playlist {
   border: 1px solid #ccc;
   width: auto;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .song-container {
   display: grid;
-  grid-template-columns: repeat(4, 250px);
+  grid-template-columns: repeat(5, 250px);
 }
 
 .header {
